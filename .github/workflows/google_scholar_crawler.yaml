@@ -18,11 +18,12 @@ jobs:
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
         python3 main.py
-        cd ./results
-        git init
+        cd ..
+    
         git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        
+        git add google_scholar_crawler/results/*.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
       env: 
