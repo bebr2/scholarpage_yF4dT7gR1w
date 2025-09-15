@@ -13,7 +13,7 @@ try:
     scholarly.use_proxy(pg)
     author: dict = scholarly.search_author_id(os.environ["GOOGLE_SCHOLAR_ID"])
 except:
-    print(f"发生异常: {e}")
+    print(f"发生异常")
     print("正在填充作者详细信息...")
     scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
     name = author["name"]
