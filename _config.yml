@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Changyue Wang"
 description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+repository               : "bebr2/scholarpage_yF4dT7gR1w"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -28,10 +28,10 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=iHDgZ04AAAAJ"
   email            : "changyuewang02@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "https://bebr2.com"
   bitbucket        :
   codepen          :
   dribbble         :
