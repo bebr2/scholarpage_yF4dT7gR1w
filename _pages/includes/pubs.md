@@ -1,15 +1,15 @@
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Main</div><img src='images/EditCoT/500x300(1).png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Knowledge Editing through Chain-of-Thought](https://arxiv.org/abs/2412.17727)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Changyue Wang**, Weihang Su, Qingyao Ai, Yichen Tang, Yiqun Liu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Code**](https://github.com/bebr2/EditCoT) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:ufrVoPGSRksC'></span></strong>
+- EditCoT is a novel knowledge editing framework that updates LLMs through iterative chain-of-thought refinement, enabling efficient integration of new knowledge without retraining. It achieves state-of-the-art performance across diverse tasks and languages, offering superior generalization, stability, and effectiveness.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Parametric Retrieval Augmented Generation](https://dl.acm.org/doi/abs/10.1145/3726302.3729957), Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, **Changyue Wang**, Hongning Wang, Ziyi Ye, Yujia Zhou, Yiqun Liu, **SIGIR 2025**
