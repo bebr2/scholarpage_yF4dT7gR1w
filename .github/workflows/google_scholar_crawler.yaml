@@ -22,9 +22,15 @@ jobs:
         
         git config --local user.name "${GITHUB_ACTOR}"
         git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        git checkout -B google-scholar-stats 
+
+        git fetch origin google-scholar-stats || true
+        git checkout -B google-scholar-stats origin/google-scholar-stats || git checkout -B google-scholar-stats
+
+       
+        cp google_scholar_crawler/results/gs_data.json .
+        cp google_scholar_crawler/results/gs_data_shieldsio.json .
+        git add gs_data.json gs_data_shieldsio.json
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add google_scholar_crawler/results/*.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" google-scholar-stats --force
       env: 
