@@ -1,6 +1,3 @@
-*.json
-!google_scholar_crawler/results/gs_data.json
-!google_scholar_crawler/results/gs_data_shieldsio.json
 .DS_Store
 /push.sh
 
