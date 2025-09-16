@@ -3,7 +3,7 @@ name: Get Citation Data
 on: 
  page_build: 
  schedule:
-  - cron:  '0 8 * * *'
+  - cron:  '0 8 * * 2,6'
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
     
         git config --local user.name "${GITHUB_ACTOR}"
         git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add google_scholar_crawler/results/*.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
