@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Changyue Wang"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
+description              : "『古木吟风，高楼唱月』"
 repository               : "bebr2/scholarpage_yF4dT7gR1w"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Changyue Wang"
   chinesename      : "（王畅越）"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
+  avatar           : "images/me.jpg"
+  bio              : "Tsinghua University"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
