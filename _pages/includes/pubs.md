@@ -49,6 +49,19 @@
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024 Findings/div><img src='images/MIND/1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Unsupervised real-time hallucination detection based on the internal states of large language models](https://aclanthology.org/2024.findings-acl.854/)
+
+Weihang Su*, **Changyue Wang***, Qingyao Ai, Yiran Hu, Zhijing Wu, Yujia Zhou, Yiqun Liu
+
+[**Code**](https://github.com/oneal2000/MIND) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:2osOgNQ5qMEC'></span></strong>
+- MIND is an unsupervised framework that detects hallucinations in LLMs by leveraging their internal states during inference for real-time analysis.
+Alongside, HELM provides a comprehensive benchmark to evaluate hallucination detection across diverse models and scenarios.
+</div>
+</div>
+
 
 - [Parametric Retrieval Augmented Generation](https://dl.acm.org/doi/abs/10.1145/3726302.3729957), Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, **Changyue Wang**, Hongning Wang, Ziyi Ye, Yujia Zhou, Yiqun Liu. ***SIGIR 2025***
 - [JuDGE: Benchmarking Judgment Document Generation for Chinese Legal System](https://dl.acm.org/doi/abs/10.1145/3726302.3730295), Weihang Su, Baoqing Yue, Qingyao Ai, Yiran Hu, Jiaqi Li, **Changyue Wang**, Kaiyuan Zhang, Yueyue Wu, Yiqun Liu. ***SIGIR 2025***
