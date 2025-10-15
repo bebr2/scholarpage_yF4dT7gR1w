@@ -54,7 +54,7 @@
 
 [Unsupervised real-time hallucination detection based on the internal states of large language models](https://aclanthology.org/2024.findings-acl.854/)
 
-Weihang Su*, **Changyue Wang***, Qingyao Ai, Yiran Hu, Zhijing Wu, Yujia Zhou, Yiqun Liu
+Weihang Su*, **Changyue Wang**\*, Qingyao Ai, Yiran Hu, Zhijing Wu, Yujia Zhou, Yiqun Liu
 
 [**Code**](https://github.com/oneal2000/MIND) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:2osOgNQ5qMEC'></span></strong>
 - MIND is an unsupervised framework that detects hallucinations in LLMs by leveraging their internal states during inference for real-time analysis.
