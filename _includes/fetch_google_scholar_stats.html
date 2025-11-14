@@ -1,18 +1,45 @@
 <script>
-    $(document).ready(function () {
+    $(document.body).ready(function () {
         {% if site.google_scholar_stats_use_cdn %}
         var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
+
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
+            
+            // ---  以下代码已被移除 ---
+            // var totalCitation = data['citedby']
+            // document.getElementById('total_cit').innerHTML = totalCitation;
+            // --- 错误行已删除 ---
+
+            
+            // 你需要的功能：为每篇文章显示引用数
+            var citationEles = document.getElementsByClassName('show_paper_citations');
+            
             Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+                try {
+                    var paperId = element.getAttribute('data');
+                    
+                    // 健壮性检查：确保数据存在
+                    if (paperId && data && data['publications'] && data['publications'][paperId]) {
+                        
+                        var numCitations = data['publications'][paperId]['num_citations'];
+                        
+                        if (numCitations !== undefined) {
+                            element.innerHTML = '| Citations: ' + numCitations;
+                        } else {
+                            // JSON 中有这篇文章，但没有 'num_citations' 键
+                            element.innerHTML = '| Citations: N/A';
+                        }
+                    } else {
+                        // HTML 中的 data 属性在 JSON 中找不到对应的 paperId
+                        console.warn("Warning: Paper data not found for ID:", paperId);
+                        element.innerHTML = '| Citations: Not Found';
+                    }
+                } catch (e) {
+                    console.error("Error processing paper citation:", e, element);
+                }
             });
         });
     })

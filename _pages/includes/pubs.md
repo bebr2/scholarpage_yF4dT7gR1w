@@ -1,22 +1,24 @@
 # Paper Under Submission
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/RACE/1.png' alt="sym" width="100%"></div></div>
+
+
+# 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/RACE/1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Joint Evaluation of Answer and Reasoning Consistency for Hallucination Detection in Large Reasoning Models](https://arxiv.org/abs/2506.04832)
 
 **Changyue Wang**, Weihang Su, Qingyao Ai, Yiqun Liu
 
-[**Code**](https://github.com/bebr2/RACE) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:0EnyYjriUFMC'></span></strong>
-- RACE (Reasoning and Answer Consistency Evaluation) is a framework for detecting hallucinations in Large Reasoning Models (LRMs) by jointly analyzing both reasoning traces and final answers. It detects inconsistencies and hallucinations through multi-signal analysis, achieving robust and generalizable performance across models and datasets.
+[**Code**](https://github.com/bebr2/RACE) | [**HF Model**](https://huggingface.co/bebr2/RACE-CoT-Extractor-Llama-8B) |<strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:0EnyYjriUFMC'></span></strong>
+- RACE (Reasoning and Answer Consistency Evaluation) is a framework for detecting hallucinations in Large Reasoning Models (LRMs) by jointly analyzing both reasoning traces and final answers. It detects inconsistencies and hallucinations through multi-signal analysis, achieving robust and generalizable performance across models and datasets. RACE is **the first to** reveal that prior black-box hallucination detection methods are fundamentally flawed when applied to Large Reasoning Models (LRMs), and **pioneers the direction of black-box hallucination detection for LRMs**.
 </div>
 </div>
-
-# 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Main</div><img src='images/EditCoT/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Knowledge Editing through Chain-of-Thought](https://arxiv.org/abs/2412.17727)
+[Knowledge Editing through Chain-of-Thought](https://aclanthology.org/2025.emnlp-main.540/)
 
 **Changyue Wang**, Weihang Su, Qingyao Ai, Yichen Tang, Yiqun Liu
 

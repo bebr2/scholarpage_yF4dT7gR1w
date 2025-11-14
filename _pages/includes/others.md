@@ -1,4 +1,5 @@
 # 🎖 Honors and Awards
+- ***Nov. 2025***, AAAI 2026 Oral.
 - ***Jun. 2024***, Outstanding Undergraduate Graduate of Beijing.
 
 # 📖 Educations
