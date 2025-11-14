@@ -1,4 +1,4 @@
-# Paper Under Submission
+# ⛷️ Paper Under Submission
 
 
 # 📝 Publications 
@@ -10,7 +10,7 @@
 
 **Changyue Wang**, Weihang Su, Qingyao Ai, Yiqun Liu
 
-[**Code**](https://github.com/bebr2/RACE) | [**HF Model**](https://huggingface.co/bebr2/RACE-CoT-Extractor-Llama-8B) |<strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:0EnyYjriUFMC'></span></strong>
+[**Code**](https://github.com/bebr2/RACE) | [**HF Model**](https://huggingface.co/bebr2/RACE-CoT-Extractor-Llama-8B) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:0EnyYjriUFMC'></span></strong>
 - RACE (Reasoning and Answer Consistency Evaluation) is a framework for detecting hallucinations in Large Reasoning Models (LRMs) by jointly analyzing both reasoning traces and final answers. It detects inconsistencies and hallucinations through multi-signal analysis, achieving robust and generalizable performance across models and datasets. RACE is **the first to** reveal that prior black-box hallucination detection methods are fundamentally flawed when applied to Large Reasoning Models (LRMs), and **pioneers the direction of black-box hallucination detection for LRMs**.
 </div>
 </div>
