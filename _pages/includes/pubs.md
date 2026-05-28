@@ -8,7 +8,7 @@
 **Changyue Wang**, Weihang Su, Qingyao Ai, Yiqun Liu
 
 [**Code**](https://github.com/bebr2/UNO) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:Wp0gIr-vW9MC'></span></strong>
-- **UNO** (User log-driveN Optimization) is a unified framework for continuously improving LLM systems from raw user logs. Instead of treating user logs as simple retrieval memories or directly fine-tuning on noisy feedback, UNO distills unstructured logs into semi-structured rules and preference pairs, organizes heterogeneous feedback through query-and-rule clustering, and uses a cognitive-gap assessment to adaptively construct primary and reflective experience modules. UNO systematically formulate and study LLM system optimization from user logs, revealing the fundamental Signal-or-Noise Dilemma in feedback-driven continual learning, and **pioneers the direction of user-log-driven optimization for self-improving LLM systems**.
+- **UNO** (User log-driveN Optimization) is a framework for improving LLM systems from raw user logs. It distills unstructured logs into semi-structured rules and preference pairs, organizes heterogeneous feedback through query-and-rule clustering, and uses cognitive-gap assessment to build primary and reflective experience modules. **UNO provides a systematic study of user-log-driven optimization and identifies the Signal-or-Noise Dilemma in feedback-based continual improvement.**
 </div>
 </div>
 
@@ -23,7 +23,7 @@
 Qingyao Ai, Yichen Tang, **Changyue Wang**, Jianming Long, Weihang Su, Yiqun Liu
 
 [**Code**](https://github.com/THUIR/MemoryBench) | [**HF Dataset**](https://huggingface.co/datasets/THUIR/MemoryBench) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:5nxA0vEk-isC'></span></strong>
-- **MemoryBench** is a comprehensive benchmark for evaluating memory and continual learning in LLM systems. Unlike prior memory benchmarks that mainly reduce memory evaluation to static long-context reading comprehension, MemoryBench simulates how LLM systems learn from accumulated user feedback during service time. It systematically covers declarative and procedural memory, explicit and implicit feedback, multiple domains, languages, and task formats. MemoryBench **pioneers the evaluation of continual learning from user feedback in LLM systems**.
+- **MemoryBench** is a comprehensive benchmark for evaluating memory and continual learning in LLM systems. Unlike prior memory benchmarks that mainly reduce memory evaluation to static long-context reading comprehension, MemoryBench simulates how LLM systems learn from accumulated user feedback during service time. **MemoryBench sets a new evaluation setting for LLM memory systems: continual learning from accumulated user feedback during service time.**
 </div>
 </div>
 
