@@ -1,5 +1,6 @@
 # 🔥 News
-- *2025.11*: &nbsp;🎉🎉 My first-authored Long Paper [RACE](https://arxiv.org/abs/2506.04832) has been accepted at AAAI 2026 as an **Oral Presentation**!
+- *2026.04*: &nbsp;🎉🎉 Our Long Paper [MemoryBench](https://arxiv.org/abs/2510.17281) has been accepted at ICML 2026 as a **Spotlight Paper**!
+- *2025.11*: &nbsp;🎉🎉 My first-authored Long Paper [RACE](https://ojs.aaai.org/index.php/AAAI/article/view/40624) has been accepted at AAAI 2026 as an **Oral Presentation**!
 - *2025.08*: &nbsp;🎉🎉 My first-authored Long Paper [EditCoT](https://aclanthology.org/2025.emnlp-main.540/) has been accepted at EMNLP 2025!
 - *2025.05*: &nbsp;🎉🎉 My first-authored Long Paper [DecKER](https://aclanthology.org/2025.findings-acl.1260//) has been accepted at Findings of ACL 2025!
 - *2024.09*: &nbsp;🎉🎉 My first-authored Long Paper [LeKUBE](https://dl.acm.org/doi/10.1145/3673791.3698407) has been accepted at SIGIR-AP 2024!

@@ -1,17 +1,41 @@
 # ⛷️ Paper Under Submission
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ArXiv</div><img src='images/UNO/1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Improve Large Language Model Systems with User Logs](https://arxiv.org/abs/2602.06470)
+
+**Changyue Wang**, Weihang Su, Qingyao Ai, Yiqun Liu
+
+[**Code**](https://github.com/bebr2/UNO) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:Wp0gIr-vW9MC'></span></strong>
+- **UNO** (User log-driveN Optimization) is a unified framework for continuously improving LLM systems from raw user logs. Instead of treating user logs as simple retrieval memories or directly fine-tuning on noisy feedback, UNO distills unstructured logs into semi-structured rules and preference pairs, organizes heterogeneous feedback through query-and-rule clustering, and uses a cognitive-gap assessment to adaptively construct primary and reflective experience modules. UNO systematically formulate and study LLM system optimization from user logs, revealing the fundamental Signal-or-Noise Dilemma in feedback-driven continual learning, and **pioneers the direction of user-log-driven optimization for self-improving LLM systems**.
+</div>
+</div>
 
 # 📝 Publications 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026 Spotlight</div><img src='images/MemoryBench/1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MemoryBench: A Benchmark for Memory and Continual Learning in LLMSystems](https://arxiv.org/abs/2510.17281)
+
+Qingyao Ai, Yichen Tang, **Changyue Wang**, Jianming Long, Weihang Su, Yiqun Liu
+
+[**Code**](https://github.com/THUIR/MemoryBench) | [**HF Dataset**](https://huggingface.co/datasets/THUIR/MemoryBench) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:5nxA0vEk-isC'></span></strong>
+- **MemoryBench** is a comprehensive benchmark for evaluating memory and continual learning in LLM systems. Unlike prior memory benchmarks that mainly reduce memory evaluation to static long-context reading comprehension, MemoryBench simulates how LLM systems learn from accumulated user feedback during service time. It systematically covers declarative and procedural memory, explicit and implicit feedback, multiple domains, languages, and task formats. MemoryBench **pioneers the evaluation of continual learning from user feedback in LLM systems**.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/RACE/1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Joint Evaluation of Answer and Reasoning Consistency for Hallucination Detection in Large Reasoning Models](https://arxiv.org/abs/2506.04832)
+[Joint Evaluation of Answer and Reasoning Consistency for Hallucination Detection in Large Reasoning Models](https://ojs.aaai.org/index.php/AAAI/article/view/40624)
 
 **Changyue Wang**, Weihang Su, Qingyao Ai, Yiqun Liu
 
 [**Code**](https://github.com/bebr2/RACE) | [**HF Model**](https://huggingface.co/bebr2/RACE-CoT-Extractor-Llama-8B) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:0EnyYjriUFMC'></span></strong>
-- RACE (Reasoning and Answer Consistency Evaluation) is a framework for detecting hallucinations in Large Reasoning Models (LRMs) by jointly analyzing both reasoning traces and final answers. It detects inconsistencies and hallucinations through multi-signal analysis, achieving robust and generalizable performance across models and datasets. RACE is **the first to** reveal that prior black-box hallucination detection methods are fundamentally flawed when applied to Large Reasoning Models (LRMs), and **pioneers the direction of black-box hallucination detection for LRMs**.
+- **RACE** (Reasoning and Answer Consistency Evaluation) is a framework for detecting hallucinations in Large Reasoning Models (LRMs) by jointly analyzing both reasoning traces and final answers. It detects inconsistencies and hallucinations through multi-signal analysis, achieving robust and generalizable performance across models and datasets. RACE is **the first to** reveal that prior black-box hallucination detection methods are fundamentally flawed when applied to Large Reasoning Models (LRMs), and **pioneers the direction of black-box hallucination detection for LRMs**.
 </div>
 </div>
 
@@ -23,7 +47,7 @@
 **Changyue Wang**, Weihang Su, Qingyao Ai, Yichen Tang, Yiqun Liu
 
 [**Code**](https://github.com/bebr2/EditCoT) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:ufrVoPGSRksC'></span></strong>
-- EditCoT is a novel knowledge editing framework that updates LLMs through iterative chain-of-thought refinement, enabling efficient integration of new knowledge without retraining. It achieves state-of-the-art performance across diverse tasks and languages, offering superior generalization, stability, and effectiveness.
+- **EditCoT** is a novel knowledge editing framework that updates LLMs through iterative chain-of-thought refinement, enabling efficient integration of new knowledge without retraining. It achieves state-of-the-art performance across diverse tasks and languages, offering superior generalization, stability, and effectiveness.
 </div>
 </div>
 
@@ -35,7 +59,7 @@
 **Changyue Wang**, Weihang Su, Qingyao Ai, Yujia Zhou, Yiqun Liu
 
 [**Code**](https://github.com/bebr2/DecKER) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:UebtZRa9Y70C'></span></strong>
-- DecKER is a novel in-context editing framework that decouples reasoning from knowledge injection, mitigating conflicts between updated and original knowledge. It achieves significant improvements in multi-hop reasoning by preserving reasoning integrity while efficiently integrating new knowledge.
+- **DecKER** is a novel in-context editing framework that decouples reasoning from knowledge injection, mitigating conflicts between updated and original knowledge. It achieves significant improvements in multi-hop reasoning by preserving reasoning integrity while efficiently integrating new knowledge.
 </div>
 </div>
 
@@ -47,7 +71,7 @@
 **Changyue Wang**, Weihang Su, Yiran Hu, Qingyao Ai, Yueyue Wu, Cheng Luo, Yiqun Liu, Min Zhang, Shaoping Ma
 
 [**Code**](https://github.com/bebr2/LeKUBE) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:W7OEmFMy1HYC'></span></strong>
-- LeKUBE is a comprehensive benchmark designed to evaluate knowledge update methods for legal LLMs. It highlights the unique challenges of updating legal knowledge—such as nuanced statutory changes and complex reasoning—revealing a significant gap between current techniques and real-world legal needs.
+- **LeKUBE** is a comprehensive benchmark designed to evaluate knowledge update methods for legal LLMs. It highlights the unique challenges of updating legal knowledge—such as nuanced statutory changes and complex reasoning—revealing a significant gap between current techniques and real-world legal needs.
 </div>
 </div>
 
@@ -59,7 +83,7 @@
 Weihang Su*, **Changyue Wang**\*, Qingyao Ai, Yiran Hu, Zhijing Wu, Yujia Zhou, Yiqun Liu
 
 [**Code**](https://github.com/oneal2000/MIND) <strong><span class='show_paper_citations' data='iHDgZ04AAAAJ:2osOgNQ5qMEC'></span></strong>
-- MIND is an unsupervised framework that detects hallucinations in LLMs by leveraging their internal states during inference for real-time analysis.
+- **MIND** is an unsupervised framework that detects hallucinations in LLMs by leveraging their internal states during inference for real-time analysis.
 Alongside, HELM provides a comprehensive benchmark to evaluate hallucination detection across diverse models and scenarios.
 </div>
 </div>
@@ -69,3 +93,7 @@ Alongside, HELM provides a comprehensive benchmark to evaluate hallucination det
 - [JuDGE: Benchmarking Judgment Document Generation for Chinese Legal System](https://dl.acm.org/doi/abs/10.1145/3726302.3730295), Weihang Su, Baoqing Yue, Qingyao Ai, Yiran Hu, Jiaqi Li, **Changyue Wang**, Kaiyuan Zhang, Yueyue Wu, Yiqun Liu. ***SIGIR 2025***
 - [Pre-training for Legal Case Retrieval Based on Inter-Case Distinctions](https://dl.acm.org/doi/full/10.1145/3735127), Weihang Su, Qingyao Ai, Yueyue Wu, Anzhe Xie, **Changyue Wang**, Yixiao Ma, Haitao Li, Zhijing Wu, Yiqun Liu, Min Zhang. ***ACM TOIS***
 - [Mitigating Entity-Level Hallucination in Large Language Models](https://dl.acm.org/doi/10.1145/3673791.3698403), Weihang Su, Yichen Tang, Qingyao Ai, **Changyue Wang**, Zhijing Wu, Yiqun Liu. ***SIGIR-AP 2024***
+
+# Internships
+
+- Research intern, TikTok Data Search, ByteDance, China. (2025.09 - Now)

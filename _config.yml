@@ -21,8 +21,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Changyue Wang"
-  chinesename      : "（王畅越）"
+  name             : "王畅越"
+  chinesename      : "（Changyue Wang）"
   avatar           : "images/me.jpg"
   bio              : "Tsinghua University"
   location         : "Beijing, China"

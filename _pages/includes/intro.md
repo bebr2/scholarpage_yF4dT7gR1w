@@ -7,7 +7,7 @@
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my homepage!  I am Changyue Wang (王畅越), a second-year PhD student at the Department of Computer Science and Technology, Tsinghua University, under the supervision of Prof. Yiqun Liu.
+Welcome to my homepage!  I am Changyue Wang (王畅越), a second-year PhD student at the Department of Computer Science and Technology, Tsinghua University, under the supervision of Prof. [Yiqun Liu](http://www.thuir.cn/group/~YQLiu/) and Assoc. Prof. [Qingyao Ai](https://www.thuir.cn/group/aiqy/).
 
 My research interests focus on **knowledge utilization** in large language models (LLMs), including **knowledge editing, hallucination detection, retrieval augmentation, and legal applications of AI**.
 
@@ -15,7 +15,7 @@ Currently, I am exploring how to enable LLMs to better memorize and utilize memo
 
 Beyond research, I also run a popular **Xiaohongshu** account, *[@LLM翰林院](https://www.xiaohongshu.com/user/profile/6468629c0000000012037726)*
 , a daily paper bot that automatically curates and summarizes the latest AI papers on arXiv.
-It has attracted **over 17,000 followers** so far, providing researchers and enthusiasts with up-to-date insights into the rapidly evolving field of LLMs.
+It has attracted **over 23,000 followers** so far, providing researchers and enthusiasts with up-to-date insights into the rapidly evolving field of LLMs.
 
 <!-- <a href='https://scholar.google.com/citations?user=iHDgZ04AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fbebr2%2Fscholarpage_yF4dT7gR1w@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> -->
 
